@@ -1,0 +1,10 @@
+#gameBoard{
+  display: grid;
+  grid-template-columns: repeat(3,1rem);
+}
+#gameBoard > div {
+  border: 1px solid #f114;
+  text-align: center;
+  width: 1rem;
+  height: 1rem;
+}
